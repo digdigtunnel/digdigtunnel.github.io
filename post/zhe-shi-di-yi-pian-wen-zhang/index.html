@@ -3,68 +3,110 @@
   <head>
     <meta charset="utf-8" >
 
-<title>这是第一篇文章 | Matthew Write Here</title>
+<title>Welcom to Matthew&#39;s PokeMon World | Matthew&#39;s PokeMon Garden</title>
+<meta name="description" content="爱画画的Matthew写字的地方">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="shortcut icon" href="https://digdigtunnel.github.io/favicon.ico?v=1584341636526">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://digdigtunnel.github.io/favicon.ico?v=1584340163320">
+<link rel="stylesheet" href="https://unpkg.com/papercss@1.6.1/dist/paper.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://digdigtunnel.github.io/styles/main.css">
 
 
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
 
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
 
-
-    <meta name="description" content="OLED材料整体市场规模
-2017年显示产业链的一件大事莫过于苹果iPhone X手机的发布，尤其采用AMOLED屏对上游产业链的拉动效应明显，带动AMOLED面板厂商和上游OLED材料厂商积极备货。2017年全球OLED材料市场规模为8．..." />
-    <meta name="keywords" content="" />
   </head>
   <body>
-    <div id="app" class="main">
-
-      <div class="sidebar" :class="{ 'full-height': menuVisible }">
-  <div class="top-container" data-aos="fade-right">
-    <div class="top-header-container">
-      <a class="site-title-container" href="https://digdigtunnel.github.io">
-        <img src="https://digdigtunnel.github.io/images/avatar.png?v=1584340163320" class="site-logo">
-        <h1 class="site-title">Matthew Write Here</h1>
-      </a>
-      <div class="menu-btn" @click="menuVisible = !menuVisible">
-        <div class="line"></div>
-      </div>
-    </div>
-    <div>
-      
+  
+    <nav class="navbar border fixed split-nav">
+  <div class="nav-brand">
+    <h3><a href="https://digdigtunnel.github.io">Matthew&#39;s PokeMon Garden</a></h3>
+  </div>
+  <div class="collapsible">
+    <input id="collapsible1" type="checkbox" name="collapsible1">
+    <button>
+      <label for="collapsible1">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </label>
+    </button>
+    <div class="collapsible-body">
+      <ul class="inline">
         
-          <a href="/" class="site-nav">
-            首页
-          </a>
+          <li>
+            
+              <a href="/" class="menu">
+                首页
+              </a>
+            
+          </li>
         
-      
+          <li>
+            
+              <a href="/archives" class="menu">
+                归档
+              </a>
+            
+          </li>
         
-          <a href="/archives" class="site-nav">
-            归档
-          </a>
+          <li>
+            
+              <a href="/tags" class="menu">
+                标签
+              </a>
+            
+          </li>
         
-      
+          <li>
+            
+              <a href="/post/about" class="menu">
+                关于
+              </a>
+            
+          </li>
         
-          <a href="/tags" class="site-nav">
-            标签
-          </a>
-        
-      
-        
-          <a href="/post/about" class="site-nav">
-            关于
-          </a>
-        
-      
+      </ul>
     </div>
   </div>
-  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+</nav>
+
+    <div id="top" class="row site">
+      <div class="sm-12 md-8 col">
+        <div class="paper">
+          <article class="article">
+            <h1>Welcom to Matthew&#39;s PokeMon World</h1>
+            <p class="article-meta">
+              2020-03-15
+              
+            </p>
+            
+              <img src="https://digdigtunnel.github.io/post-images/zhe-shi-di-yi-pian-wen-zhang.png" alt="Welcom to Matthew&#39;s PokeMon World">
+            
+            <div class="post-content">
+              <p>这里是Matthew的Pokemon世界，欢迎！<br>
+🐶🐨🙉🦄🐢🐹</p>
+<p>每天体育锻炼：🏈🏋️‍♀️🏸⚾️</p>
+
+            </div>
+          </article>
+        </div>
+        <div class="paper" data-aos="fade-in">
+          
+        </div>
+        
+      </div>
+
+      <div class="sm-12 md-4 col sidebar">
+  <div class="paper info-container">
+    <img src="https://digdigtunnel.github.io/images/avatar.png?v=1584341636526" class="no-responsive avatar">
+    <div class="text-muted">爱画画的Matthew写字的地方</div>
     <div class="social-container">
       
         
@@ -78,67 +120,54 @@
         
       
     </div>
-    <div class="site-description">
-      爱画画的Matthew写字的地方
+  </div>
+  <div class="paper">
+    <div class="sidebar-title">
+      最新文章
     </div>
-    <div class="site-footer">
-      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://digdigtunnel.github.io/atom.xml" target="_blank">RSS</a>
+    <div class="row">
+      <ul>
+        
+          
+            <li>
+              <a href="https://digdigtunnel.github.io/post/zhe-shi-di-yi-pian-wen-zhang/">Welcom to Matthew&#39;s PokeMon World</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://digdigtunnel.github.io/post/about/">关于</a>
+            </li>
+          
+        
+      </ul>
     </div>
+  </div>
+  <div class="paper">
+    <div class="sidebar-title">
+      标签列表
+    </div>
+    <div class="row">
+      
+    </div>
+  </div>
+  <div class="paper">
+    Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://digdigtunnel.github.io/atom.xml" target="_blank">RSS</a>
   </div>
 </div>
 
 
-      <div class="main-container">
-        <div class="content-container" data-aos="fade-up">
-          <div class="post-detail">
-            <h2 class="post-title">这是第一篇文章</h2>
-            <div class="post-date">2020-03-15</div>
-            
-            <div class="post-content" v-pre>
-              <p>OLED材料整体市场规模<br>
-2017年显示产业链的一件大事莫过于苹果iPhone X手机的发布，尤其采用AMOLED屏对上游产业链的拉动效应明显，带动AMOLED面板厂商和上游OLED材料厂商积极备货。2017年全球OLED材料市场规模为8．56亿美元，同比大幅增长61％。随着国内多家AMOLED面板生产线的投产，预计2018年全球OLED材料市场规模将达到12．58亿美元，同比增长47％。<br>
-图表1：全球OLED材料市场规模</p>
-<p>AMOLED面板主要应用市场有两个：智能手机和OLED彩电。主要手机品牌厂商如华为、OPPO、vivo、小米、苹果、三星等新推出的旗舰机型均采用AMOLED显示技术，大大增加了OLED面板的需求。2017年，中国OLED电视的销量达到12万台，索尼、飞利浦、LG、创维、康佳等电视厂商为实现差异化销售，均加入OLED阵营。业内乐观估计，2018年中国OLED电视整体销量规模将在2017年基础上实现至少翻一番，这将在很大程度上增加对上游OLED材料的需求。<br>
-OLED材料分类<br>
-OLED材料主要包括两部分：发光材料和基础材料，两者占OLED屏幕物料成本的30％左右。OLED发光材料主要包括红光主体／客体材料、绿光主体／客体材料、蓝光主体／客体材料等。OLED通用材料，主要包括电子传输层ETL、电子注入层EIL、空穴注入层HIL、空穴传输层HTL、空穴阻挡层HBL、电子阻挡层EBL等，随着器件结构的优化，材料的种类在不断变多。其中有机发光层材料和传输层材料为OLED的关键材料。<br>
-图表2：OLED材料分类及主要代表厂商</p>
-
-            </div>
-            
-            
-              <div class="next-post">
-                <div class="next">下一篇</div>
-                <a href="https://digdigtunnel.github.io/post/hello-gridea/">
-                  <h3 class="post-title">
-                    Hello Gridea
-                  </h3>
-                </a>
-              </div>
-            
-
-            
-
-          </div>
-
-        </div>
-      </div>
     </div>
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
 <script type="application/javascript">
 
 AOS.init();
 
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
+hljs.initHighlightingOnLoad()
 
 </script>
-
-
 
 
 

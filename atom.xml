@@ -1,60 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digdigtunnel.github.io</id>
-    <title>Matthew Write Here</title>
-    <updated>2020-03-16T06:29:25.116Z</updated>
+    <title>Matthew&apos;s PokeMon Garden</title>
+    <updated>2020-03-16T06:54:41.076Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://digdigtunnel.github.io"/>
     <link rel="self" href="https://digdigtunnel.github.io/atom.xml"/>
     <subtitle>爱画画的Matthew写字的地方</subtitle>
     <logo>https://digdigtunnel.github.io/images/avatar.png</logo>
     <icon>https://digdigtunnel.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, Matthew Write Here</rights>
+    <rights>All rights reserved 2020, Matthew&apos;s PokeMon Garden</rights>
     <entry>
-        <title type="html"><![CDATA[这是第一篇文章]]></title>
+        <title type="html"><![CDATA[Welcom to Matthew's PokeMon World]]></title>
         <id>https://digdigtunnel.github.io/post/zhe-shi-di-yi-pian-wen-zhang/</id>
         <link href="https://digdigtunnel.github.io/post/zhe-shi-di-yi-pian-wen-zhang/">
         </link>
         <updated>2020-03-15T06:56:42.000Z</updated>
-        <content type="html"><![CDATA[<p>OLED材料整体市场规模<br>
-2017年显示产业链的一件大事莫过于苹果iPhone X手机的发布，尤其采用AMOLED屏对上游产业链的拉动效应明显，带动AMOLED面板厂商和上游OLED材料厂商积极备货。2017年全球OLED材料市场规模为8．56亿美元，同比大幅增长61％。随着国内多家AMOLED面板生产线的投产，预计2018年全球OLED材料市场规模将达到12．58亿美元，同比增长47％。<br>
-图表1：全球OLED材料市场规模</p>
-<p>AMOLED面板主要应用市场有两个：智能手机和OLED彩电。主要手机品牌厂商如华为、OPPO、vivo、小米、苹果、三星等新推出的旗舰机型均采用AMOLED显示技术，大大增加了OLED面板的需求。2017年，中国OLED电视的销量达到12万台，索尼、飞利浦、LG、创维、康佳等电视厂商为实现差异化销售，均加入OLED阵营。业内乐观估计，2018年中国OLED电视整体销量规模将在2017年基础上实现至少翻一番，这将在很大程度上增加对上游OLED材料的需求。<br>
-OLED材料分类<br>
-OLED材料主要包括两部分：发光材料和基础材料，两者占OLED屏幕物料成本的30％左右。OLED发光材料主要包括红光主体／客体材料、绿光主体／客体材料、蓝光主体／客体材料等。OLED通用材料，主要包括电子传输层ETL、电子注入层EIL、空穴注入层HIL、空穴传输层HTL、空穴阻挡层HBL、电子阻挡层EBL等，随着器件结构的优化，材料的种类在不断变多。其中有机发光层材料和传输层材料为OLED的关键材料。<br>
-图表2：OLED材料分类及主要代表厂商</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://digdigtunnel.github.io/post/hello-gridea/</id>
-        <link href="https://digdigtunnel.github.io/post/hello-gridea/">
-        </link>
-        <updated>2018-12-11T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-<!-- more -->
-<p><a href="https://github.com/getgridea/gridea">Github</a><br>
-<a href="https://gridea.dev/">Gridea 主页</a><br>
-<a href="http://fehey.com/">示例网站</a></p>
-<h2 id="特性">特性👇</h2>
-<p>📝  你可以使用最酷的 <strong>Markdown</strong> 语法，进行快速创作</p>
-<p>🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片</p>
-<p>🏷️  你可以对文章进行标签分组</p>
-<p>📋  你可以自定义菜单，甚至可以创建外部链接菜单</p>
-<p>💻  你可以在 <strong>Windows</strong>，<strong>MacOS</strong> 或 <strong>Linux</strong> 设备上使用此客户端</p>
-<p>🌎  你可以使用 <strong>𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌</strong> 或 <strong>Coding Pages</strong> 向世界展示，未来将支持更多平台</p>
-<p>💬  你可以进行简单的配置，接入 <a href="https://github.com/gitalk/gitalk">Gitalk</a> 或 <a href="https://github.com/SukkaW/DisqusJS">DisqusJS</a> 评论系统</p>
-<p>🇬🇧  你可以使用<strong>中文简体</strong>或<strong>英语</strong></p>
-<p>🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力</p>
-<p>🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步</p>
-<p>🌱 当然 <strong>Gridea</strong> 还很年轻，有很多不足，但请相信，它会不停向前 🏃</p>
-<p>未来，它一定会成为你离不开的伙伴</p>
-<p>尽情发挥你的才华吧！</p>
-<p>😘 Enjoy~</p>
+        <content type="html"><![CDATA[<p>这里是Matthew的Pokemon世界，欢迎！<br>
+🐶🐨🙉🦄🐢🐹</p>
+<p>每天体育锻炼：🏈🏋️‍♀️🏸⚾️</p>
 ]]></content>
     </entry>
 </feed>
